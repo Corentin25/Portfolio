@@ -1,0 +1,123 @@
+{
+  "projects": [
+    {
+      "id": "argent-bank",
+      "title": "Argent Bank",
+      "introText": "Développé dans le cadre de ma formation chez OpenClassrooms, Argent Bank est une application web bancaire moderne qui m'a permis de concevoir un tableau de bord interactif en me concentrant sur l'authentification utilisateur et la gestion globale des données.",
+      "githubLink": "https://github.com/Corentin25/ArgentBank-Frontend.git",
+      "details": [
+        {
+          "label": "Contexte",
+          "content": "Argent Bank souhaitait lancer sa nouvelle application web pour permettre à ses clients de se connecter et de consulter leurs comptes de manière sécurisée."
+        },
+        {
+          "label": "Objectifs",
+          "content": "L'enjeu principal était d'intégrer le front-end du système d'authentification et de dynamiser le tableau de bord en le connectant à une base de données via une API."
+        },
+        {
+          "label": "Stack technique",
+          "content": "L'interface a été entièrement développée avec React, tandis que Redux Toolkit a été privilégié pour gérer efficacement l'état global et la persistance des données de l'application."
+        },
+        {
+          "label": "Compétences développées",
+          "content": "J'ai renforcé ma capacité à interagir avec des API REST sécurisées (utilisation de tokens JWT) et à centraliser le state management de manière optimale."
+        },
+        {
+          "label": "Résultats et impact",
+          "content": "L'application dispose désormais d'un parcours de connexion fluide, avec un profil utilisateur sécurisé, entièrement fonctionnel et modifiable."
+        },
+        {
+          "label": "Perspectives d'amélioration",
+          "content": "Une prochaine évolution logique serait de développer la vue détaillée des transactions individuelles ou d'implémenter des tests unitaires poussés."
+        }
+      ]
+    },
+    {
+      "id": "nina-carducci",
+      "title": "Nina Carducci",
+      "introText": "Réalisé lors de mon parcours chez OpenClassrooms, ce projet consistait à optimiser le portfolio en ligne de la photographe Nina Carducci. L'objectif était d'améliorer significativement les performances globales du site, son accessibilité ainsi que son SEO.",
+      "githubLink": "https://github.com/Corentin25/Nina-Carducci.git",
+      "details": [
+        {
+          "label": "Contexte",
+          "content": "Nina Carducci disposait d'un site web visuellement attrayant, mais qui souffrait de temps de chargement trop longs et d'un manque de visibilité sur les moteurs de recherche."
+        },
+        {
+          "label": "Objectifs",
+          "content": "La mission consistait à réaliser un audit complet du site puis appliquer des optimisations techniques ciblées pour booster le SEO local, l'accessibilité et la rapidité d'affichage."
+        },
+        {
+          "label": "Stack technique",
+          "content": "L'audit a été réalisé à l'aide d'outils comme Lighthouse et Wave, suivi d'interventions directes sur le code HTML/CSS, l'intégration de balises sémantiques et l'optimisation des assets graphiques."
+        },
+        {
+          "label": "Compétences développées",
+          "content": "J'ai acquis une solide méthodologie en optimisation des performances web (minification, redimensionnement d'images) et en référencement naturel (intégration de microdonnées Schema.org)."
+        },
+        {
+          "label": "Résultats et impact",
+          "content": "Les scores Lighthouse ont été drastiquement augmentés pour atteindre les standards d'excellence, offrant ainsi une navigation parfaitement fluide et un positionnement optimal sur les requêtes locales."
+        },
+        {
+          "label": "Perspectives d'amélioration",
+          "content": "La mise en place d'un système d'intégration continue (CI/CD) permettrait d'automatiser les tests de performance à chaque nouvelle mise à jour du portfolio par la cliente."
+        }
+      ]
+    },
+    {
+      "id": "to-do-list",
+      "title": "To-Do-List",
+      "introText": "Développée en tant que projet personnel, cette application de gestion de tâches a été conçue pour consolider mes acquis fondamentaux. Elle illustre parfaitement ma volonté d'expérimenter de manière autonome les technologies front-end.",
+      "githubLink": "https://github.com/Corentin25/To-Do-List.git",
+      "details": [
+        {
+          "label": "Contexte",
+          "content": "Afin de renforcer ma compréhension pratique de la bibliothèque React en dehors du cursus de formation classique, j'ai initié le développement de cet outil interactif de productivité."
+        },
+        {
+          "label": "Objectifs",
+          "content": "L'objectif premier était de concevoir une interface réactive tout en appliquant rigoureusement les concepts fondamentaux de React, tels que la création de composants, la transmission de props et la gestion d'état."
+        },
+        {
+          "label": "Stack technique",
+          "content": "L'application repose entièrement sur JavaScript et React pour la logique de l'interface utilisateur, accompagnés de CSS natif pour garantir un design épuré, clair et fonctionnel."
+        },
+        {
+          "label": "Compétences développées",
+          "content": "Ce projet m'a permis d'approfondir de manière autonome ma maîtrise des Hooks React (notamment useState), la capture des événements utilisateurs et la manipulation dynamique du DOM virtuel."
+        },
+        {
+          "label": "Résultats et impact",
+          "content": "Le résultat est une Single Page Application (SPA) intuitive, illustrant ma capacité à transformer un besoin algorithmique simple en un produit technique fonctionnel."
+        },
+        {
+          "label": "Perspectives d'amélioration",
+          "content": "L'implémentation d'un système de catégorisation des tâches contribuerait à une excellente évolution future de l’application."
+        }
+      ]
+    }
+  ],
+  "aboutMe": [
+    {
+      "id": "Corentin",
+      "text": "Je m’appelle Corentin Busi, je suis développeur web Front-End près de Bourg-en-Bresse et je suis passionné par la création d'interfaces fluides, modernes et accessibles pour tous. Anciennement Chargé de Projet Web puis Graphiste (depuis 2018), ma reconversion professionnelle via OpenClassrooms m’a permis aujourd’hui d'allier enfin la logique technique au quel je suis très attaché à ma passion du design. J’ai acquis la maîtrise de technologies Front-End tel que HTML, CSS, JavaScript ou encore React ainsi qu’une bonne approche pour l'optimisation des performances (SEO) et l'accessibilité, des enjeux devenus incontournables sur le web moderne. J'ai notamment conçu l'interface sécurisée d'une application bancaire (Argent Bank) en exploitant des technologies modernes tel que Redux Toolkit. Curieux, adaptable et rigoureux, je livre un code propre et maintenable, toujours centré sur l'expérience de l'utilisateur final. Mon objectif est d'intégrer une équipe à taille humaine en tant que développeur junior afin d'évoluer tout en apportant ma motivation et ma rigueur à tous vos futurs projets."
+    }
+  ],
+  "allReferences": [
+    {
+      "id": "mallette",
+      "reference": "« Sa capacité d’adaptation et son enthousiasme l’ont rendu opérationnel et autonome rapidement. C’est avec beaucoup de professionnalisme et d’attention qu’il a assumé ses responsabilités et a réalisé chacune des missions qui lui ont été confiées. M. BUSI est une personne talentueuse avec qui travailler est un réel plaisir et que je vous recommande donc vivement. »",
+      "nameReferent": "Gisèle, Mallette (Canada)"
+    },
+    {
+      "id": "local",
+      "reference": "« M. Busi était très apprécié pour la qualité de son travail. Il s’est toujours montré intéressé à apprendre, à relever de nouveaux défis et à tester ses capacités et nous pouvons dire qu’il a relevé le défi avec compétence. M. Busi a fait preuve de professionnalisme dans l’exercice de ses fonctions ainsi que dans les relations avec ses collègues et supérieurs. Il est également une personne ponctuelle, et agréable à côtoyer. »",
+      "nameReferent": "Céline, Local.fr (France)"
+    },
+    {
+      "id": "drake",
+      "reference": "« Corentin est une personne agréable avec qui travailler. Il est amical, respectueux et fait preuve d'une grande éthique de travail. Il a été un atout précieux pour notre équipe et a contribué de manière significative à l'atteinte des objectifs de notre client. Je n'ai aucune hésitation à recommander Corentin Busi. Je suis convaincu qu'il sera un atout pour toute organisation qui a la chance de le recruter »",
+      "nameReferent": "Loïc, Drake International (Canada)"
+    }
+  ]
+}

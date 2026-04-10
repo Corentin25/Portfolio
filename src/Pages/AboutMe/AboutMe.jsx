@@ -1,3 +1,4 @@
+import data from '../../Data/portfolioData.json';
 import "./aboutMe.css";
 
 export function AboutMe() {
