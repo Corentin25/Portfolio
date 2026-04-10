@@ -1,11 +1,26 @@
+:root {
+--purpleBlur: #6F00FF;
+--whitePrimary: #FFFFFF;
+--greySecondary: #B3B3B3;
+--blackTertiary: #1C1C1C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
 }
 
 #root {
-  margin: 0 auto;
-  min-height: 100svh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  min-width: 300px;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
