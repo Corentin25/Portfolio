@@ -1,16 +1,34 @@
-# React + Vite
+# Portfolio Professionnel - Corentin Busi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet est un portfolio professionnel, développé dans le cadre de ma formation d'Intégrateur Web chez OpenClassrooms. Il a pour but de présenter mon parcours, mes compétences techniques en développement Front-End, ainsi que les différents projets que j'ai réalisés. 
 
-Currently, two official plugins are available:
+## Architecture et Technologies
+Ce projet est une Single Page Application (SPA) construite avec une architecture modulaire.
+* **Framework :** React
+* **Outil de build :** Vite (version JavaScript)
+* **Routage :** React Router DOM
+* **Stylisation :** CSS natif (avec une approche modulaire par composant)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Prérequis
+Pour faire tourner ce projet en local, vous aurez besoin de :
+* Node.js (version 18 ou supérieure recommandée)
+* npm (généralement installé avec Node.js) ou yarn
 
-## React Compiler
+## Installation et Démarrage
+Suivez ces étapes pour lancer l'application sur votre machine :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Cloner ce repository :
+`git clone https://github.com/Corentin25/Portfolio.git`
 
-## Expanding the ESLint configuration
+2. Naviguer dans le dossier du projet :
+`cd Code` 
+*(Note : Si le projet a été initialisé directement dans le dossier, ignorez cette étape).*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Installer les dépendances :
+`npm install`
+
+4. Démarrer le serveur de développement :
+`npm run dev`
+
+5. Ouvrir votre navigateur à l'adresse indiquée dans le terminal (généralement `http://localhost:5173/`).
