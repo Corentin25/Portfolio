@@ -1,8 +1,8 @@
 :root {
---purpleBlur: #6F00FF;
---whitePrimary: #FFFFFF;
---greySecondary: #B3B3B3;
---blackTertiary: #1C1C1C;
+  --purpleBlur: #6f00ff;
+  --whitePrimary: #ffffff;
+  --greySecondary: #b3b3b3;
+  --blackTertiary: #1c1c1c;
 }
 
 * {
@@ -19,8 +19,12 @@ body {
   flex-direction: column;
   min-width: 300px;
   min-height: 100vh;
+  color: var(--whitePrimary);
 }
 
 main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 }
