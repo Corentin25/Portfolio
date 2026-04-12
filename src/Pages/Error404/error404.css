@@ -1,0 +1,66 @@
+#Error404 {
+  font-size: 86px;
+  animation: none;
+}
+#notFound {
+  font-size: 32px;
+  animation: none;
+}
+
+.backButton {
+  font-size: 16px;
+  border-radius: 10rem;
+  border: solid 1px var(--whitePrimary);
+  background-color: #ffffff00;
+  color: var(--whitePrimary);
+  width: 150px;
+  height: 40px;
+  margin-top: 1.3rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.backButton:hover {
+  background-color: var(--blackTertiary);
+  border: solid 1px var(--greySecondary);
+  color: var(--whitePrimary);
+  width: 160px;
+  box-shadow: var(--whitePrimary) 0px 0px 20px;
+  cursor: pointer;
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1024px) {
+  .backButton {
+    font-size: 18px;
+    border: solid 2px var(--whitePrimary);
+    background-color: var(--blackTertiary);
+    width: 220px;
+    height: 45px;
+    margin-top: 2rem;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 515px) {
+  #Error404 {
+    font-size: 85px;
+    line-height: 0.9;
+    margin-bottom: 0.5rem;
+  }
+  .ErrorPhoneView {
+    font-size: 150px;
+  }
+  #notFound {
+    padding: 0rem 1rem;
+  }
+  .backButton {
+    font-size: 18px;
+    border: solid 2px var(--whitePrimary);
+    background-color: var(--blackTertiary);
+    width: 230px;
+    height: 47px;
+    margin-top: 2.5rem;
+  }
+}

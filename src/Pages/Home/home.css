@@ -1,0 +1,12 @@
+.homeText {
+  width: 500px;
+  margin-top: 2rem;
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 660px) {
+  .homeText {
+    width: 100%;
+  }
+}
