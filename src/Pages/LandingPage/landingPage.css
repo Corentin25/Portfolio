@@ -1,0 +1,70 @@
+#h1Landing {
+  font-size: 86px;
+}
+
+.goButton {
+  font-size: 16px;
+  border-radius: 10rem;
+  border: solid 1px var(--whitePrimary);
+  background-color: #ffffff00;
+  color: var(--whitePrimary);
+  width: 160px;
+  height: 40px;
+  margin-top: 1.3rem;
+  transition: all 0.25s ease-in-out;
+  animation: fadeIn 1.3s ease-in-out 0.9s both;
+}
+
+.goButton:hover {
+  background-color: var(--blackTertiary);
+  border: solid 1px var(--greySecondary);
+  color: var(--whitePrimary);
+  width: 170px;
+  box-shadow: var(--whitePrimary) 0px 0px 20px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1024px) {
+  .goButton {
+    font-size: 18px;
+    border: solid 2px var(--whitePrimary);
+    background-color: var(--blackTertiary);
+    width: 220px;
+    height: 45px;
+    margin-top: 2rem;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 660px) {
+  #h1Landing {
+    font-size: 62px;
+    line-height: 0.9;
+    margin-bottom: 0.7rem;
+  }
+  .h1PhoneView {
+    font-size: 150px;
+  }
+  .goButton {
+    font-size: 18px;
+    border: solid 2px var(--whitePrimary);
+    background-color: var(--blackTertiary);
+    width: 230px;
+    height: 47px;
+    margin-top: 2.5rem;
+  }
+}

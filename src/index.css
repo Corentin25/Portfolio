@@ -1,8 +1,8 @@
 :root {
-  --purpleBlur: #6f00ff;
+  --blueBlur: #2500c9;
   --whitePrimary: #ffffff;
   --greySecondary: #b3b3b3;
-  --blackTertiary: #1c1c1c;
+  --blackTertiary: #212121;
 }
 
 * {
@@ -10,6 +10,8 @@
 }
 
 body {
+  font-family: "Urbanist Variable", sans-serif;
+  font-size: 18px;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +26,71 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: 1;
+}
+
+h1 {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.9;
+  margin: 0;
+  animation: fadeIn 1.3s ease-in-out both;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: var(--greySecondary);
+  margin: 0;
+  animation: fadeIn 1.2s ease-in-out 0.5s both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0rem 1.5rem;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 38px;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 0rem 2rem;
+  }
+  h1 {
+    font-size: 39px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 0.5rem;
+  }
 }
