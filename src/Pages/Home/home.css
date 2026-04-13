@@ -1,6 +1,18 @@
 .homeText {
-  width: 500px;
+  width: 400px;
   margin-top: 2rem;
+  animation: fadeIn 1.2s ease-in-out 0.8s both;
+}
+
+.cardSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4%;
+  padding-bottom: 1rem;
+  animation: fadeIn 1.2s ease-in-out 1.3s both;
 }
 
 /* MOBILE VIEW */
@@ -8,5 +20,10 @@
 @media screen and (max-width: 660px) {
   .homeText {
     width: 100%;
+  }
+  .cardSection {
+    flex-direction: column;
+    min-width: 260px;
+    padding-bottom: 0.5rem;
   }
 }

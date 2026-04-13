@@ -1,5 +1,5 @@
 :root {
-  --blueBlur: #2500c9;
+  --purpleBlur: #c800ff66;
   --whitePrimary: #ffffff;
   --greySecondary: #b3b3b3;
   --blackTertiary: #212121;
@@ -39,7 +39,7 @@ h1 {
   text-align: center;
   line-height: 1;
   margin: 0rem 0rem 0.5rem 0rem;
-  animation: fadeIn 1.3s ease-in-out both;
+  animation: fadeIn 1s ease-in-out both;
 }
 
 h2 {
@@ -49,16 +49,15 @@ h2 {
   line-height: 1;
   color: var(--greySecondary);
   margin: 0;
-  animation: fadeIn 1.2s ease-in-out 0.5s both;
+  animation: fadeIn 1s ease-in-out 0.4s both;
 }
 
 p {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   line-height: 1.4;
   text-align: center;
-  animation: fadeIn 1.3s ease-in-out 0.9s both;
 }
 
 @keyframes fadeIn {
@@ -80,6 +79,7 @@ p {
   }
   h1 {
     font-size: 39px;
+    margin-top: 2rem;
   }
   h2 {
     font-size: 30px;

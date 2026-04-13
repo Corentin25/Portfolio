@@ -2,16 +2,13 @@ import { Link, useLocation } from "react-router-dom";
 import "./header.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSquareShareNodes,
-  faCircleLeft,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSquareShareNodes, faCircleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faSquareLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export function Header() {
   const location = useLocation();
 
-  const backButtonPath = ["/projects", "/aboutme", "/contact"];
+  const backButtonPath = ["/projects", "/aboutme", "/contact", "/legal"];
 
   const showBackButton = backButtonPath.includes(location.pathname);
 
