@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3rem 0rem;
+  gap: 5px;
+}
+
+.legalNotices {
+  color: var(--whitePrimary);
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0;
+  animation: fade 1.5s ease-in-out both;
+  transition: all 0.2s ease-in-out;
+}
+
+.legalNotices:hover {
+  color: var(--greySecondary);
+}
+
+.copyright {
+  font-size: 16px;
+  margin: 0;
+  animation: fade 1.5s ease-in-out both;
+}
