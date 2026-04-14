@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
-  background: #2d2d2d99;
+  background: var(--deepGreyBg);
   border: solid #ffffff30 1px;
   border-bottom: solid var(--greySecondary) 2px;
   color: var(--whitePrimary);

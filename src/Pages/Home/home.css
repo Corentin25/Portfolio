@@ -1,7 +1,7 @@
 .homeText {
   width: 400px;
   margin-top: 2rem;
-  animation: fadeIn 1.2s ease-in-out 0.8s both;
+  animation: fadeInZoom 0.7s ease-in-out 0.7s both;
 }
 
 .cardSection {
@@ -12,7 +12,7 @@
   width: 100%;
   gap: 4%;
   padding-bottom: 1rem;
-  animation: fadeIn 1.2s ease-in-out 1.3s both;
+  animation: fadeInZoom 0.7s ease-in-out 1s both;
 }
 
 /* MOBILE VIEW */

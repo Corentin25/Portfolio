@@ -11,12 +11,12 @@
   width: 160px;
   height: 40px;
   margin-top: 1.3rem;
-  transition: all 0.25s ease-in-out;
-  animation: fadeIn 1.2s ease-in-out 0.9s both;
+  transition: all 0.18s ease-in-out;
+  animation: fadeInZoom 0.7s ease-in-out 0.7s both;
 }
 
 .goButton:hover {
-  background-color: var(--blackTertiary);
+  background-color: var(--deepGreyBg);
   border: solid 1px var(--greySecondary);
   color: var(--whitePrimary);
   width: 170px;
@@ -24,24 +24,12 @@
   cursor: pointer;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.7);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 /* TABLET VIEW */
 
 @media screen and (max-width: 1024px) {
   .goButton {
     font-size: 18px;
-    border: solid 2px var(--whitePrimary);
-    background-color: var(--blackTertiary);
+    background-color: var(--deepGreyBg);
     width: 220px;
     height: 45px;
     margin-top: 2rem;
@@ -61,8 +49,7 @@
   }
   .goButton {
     font-size: 18px;
-    border: solid 2px var(--whitePrimary);
-    background-color: var(--blackTertiary);
+    background-color: var(--deepGreyBg);
     width: 230px;
     height: 47px;
     margin-top: 2.5rem;

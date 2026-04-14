@@ -4,6 +4,7 @@ footer {
   align-items: center;
   padding: 1.3rem 0rem;
   gap: 5px;
+  animation: fadeIn 1.5s ease-in-out 1.5s both;
 }
 
 .legalNotices {
@@ -11,7 +12,6 @@ footer {
   font-size: 16px;
   text-decoration: none;
   margin: 0;
-  animation: fade 1.5s ease-in-out both;
   transition: all 0.2s ease-in-out;
 }
 
@@ -22,5 +22,4 @@ footer {
 .copyright {
   font-size: 16px;
   margin: 0;
-  animation: fade 1.5s ease-in-out both;
 }
