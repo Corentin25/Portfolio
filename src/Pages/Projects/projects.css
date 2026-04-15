@@ -1,0 +1,19 @@
+.projectSection {
+  width: 75%;
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1024px) {
+  .projectSection {
+    width: 90%;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 660px) {
+  .projectSection {
+    width: 100%;
+  }
+}

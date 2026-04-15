@@ -40,17 +40,17 @@
 
 @media screen and (max-width: 660px) {
   #h1Landing {
-    font-size: 62px;
+    font-size: 55px;
     line-height: 0.9;
     margin-bottom: 1rem;
   }
   .h1PhoneView {
-    font-size: 150px;
+    font-size: 130px;
   }
   .goButton {
     font-size: 18px;
     background-color: var(--deepGreyBg);
-    width: 230px;
+    width: 220px;
     height: 47px;
     margin-top: 2.5rem;
   }

@@ -38,8 +38,10 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   line-height: 1;
-  margin: 0rem 0rem 0.5rem 0rem;
-  animation: fadeInZoom  0.7s ease-in-out both;
+  padding: 0;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  animation: fadeInZoom 0.7s ease-in-out both;
 }
 
 h2 {
@@ -49,7 +51,26 @@ h2 {
   line-height: 1;
   color: var(--greySecondary);
   margin: 0;
-  animation: fadeInZoom  0.7s ease-in-out 0.3s both;
+  animation: fadeInZoom 0.7s ease-in-out 0.3s both;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--whitePrimary);
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+button {
+  font-family: "Urbanist Variable", sans-serif;
+  font-weight: 600;
 }
 
 p {
@@ -57,7 +78,6 @@ p {
   font-weight: 500;
   letter-spacing: 0.2px;
   line-height: 1.4;
-  text-align: center;
 }
 
 @keyframes fadeInZoom {
@@ -84,13 +104,16 @@ p {
 
 @media screen and (max-width: 660px) {
   main {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
   h1 {
     font-size: 39px;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
   }
   h2 {
     font-size: 30px;
+  }
+  h3 {
+    font-size: 23px;
   }
 }

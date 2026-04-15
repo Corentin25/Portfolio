@@ -1,7 +1,12 @@
+#h1Home {
+  margin-top: 0rem;
+}
+
 .homeText {
   width: 400px;
   margin-top: 2rem;
   animation: fadeInZoom 0.7s ease-in-out 0.7s both;
+  text-align: center;
 }
 
 .cardSection {
@@ -18,6 +23,10 @@
 /* MOBILE VIEW */
 
 @media screen and (max-width: 660px) {
+  #h1Home {
+    margin-top: 1rem;
+  }
+
   .homeText {
     width: 100%;
   }

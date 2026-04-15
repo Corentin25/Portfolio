@@ -4,7 +4,7 @@ import "./home.css";
 export function Home() {
   return (
     <>
-      <h1>Intégrateur web à Bourg en Bresse</h1>
+      <h1 id="h1Home">Intégrateur web à Bourg en Bresse</h1>
       <h2>Votre développeur front-end dans l’Ain</h2>
       <p className="homeText">
         Découvrez mes différents projets, mon évolution professionnelle dans ce

@@ -5,6 +5,7 @@
       "title": "Argent Bank",
       "introText": "Développé dans le cadre de ma formation chez OpenClassrooms, Argent Bank est une application web bancaire moderne qui m'a permis de concevoir un tableau de bord interactif en me concentrant sur l'authentification utilisateur et la gestion globale des données.",
       "githubLink": "https://github.com/Corentin25/ArgentBank-Frontend.git",
+      "coverImage": "/Images/Argent-Bank.webp",
       "details": [
         {
           "label": "Contexte",
@@ -37,6 +38,7 @@
       "title": "Nina Carducci",
       "introText": "Réalisé lors de mon parcours chez OpenClassrooms, ce projet consistait à optimiser le portfolio en ligne de la photographe Nina Carducci. L'objectif était d'améliorer significativement les performances globales du site, son accessibilité ainsi que son SEO.",
       "githubLink": "https://github.com/Corentin25/Nina-Carducci.git",
+      "coverImage": "/Images/Nina-Carducci.webp",
       "details": [
         {
           "label": "Contexte",
@@ -69,6 +71,7 @@
       "title": "To-Do-List",
       "introText": "Développée en tant que projet personnel, cette application de gestion de tâches a été conçue pour consolider mes acquis fondamentaux. Elle illustre parfaitement ma volonté d'expérimenter de manière autonome les technologies front-end.",
       "githubLink": "https://github.com/Corentin25/To-Do-List.git",
+      "coverImage": "/Images/To-Do-List.webp",
       "details": [
         {
           "label": "Contexte",

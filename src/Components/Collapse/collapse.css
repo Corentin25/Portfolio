@@ -1,0 +1,50 @@
+.singleCollapse {
+  border: solid #3b3b3b 1px;
+  border-radius: 0.5rem;
+  background: var(--deepGreyBg);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.collapseTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  color: var(--whitePrimary);
+  transition: all 0.2s ease-in-out;
+}
+
+.collapseTitle:hover {
+  background: #39393990;
+}
+
+.chevron {
+  transition: transform 0.3s ease-in-out;
+}
+.chevron.rotated {
+  transform: rotate(-180deg);
+}
+
+.collapseText {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0rem 1.2rem;
+  background: #0f0f0fb0;
+  transition:
+    max-height 0.3s ease-in-out,
+    padding 0.3s ease-in-out;
+}
+
+.collapseText p {
+  color: var(--greySecondary);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.collapseText.visible {
+  max-height: 300px;
+  padding: 0.5rem 1.5rem;
+  border: solid #2e2e2e 1px;
+}
