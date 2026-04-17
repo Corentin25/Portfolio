@@ -1,9 +1,10 @@
 .singleCollapse {
+  display: flex;
+  flex-direction: column;
   border: solid #3b3b3b 1px;
   border-radius: 0.5rem;
   background: var(--deepGreyBg);
   overflow: hidden;
-  margin-bottom: 15px;
 }
 
 .collapseTitle {

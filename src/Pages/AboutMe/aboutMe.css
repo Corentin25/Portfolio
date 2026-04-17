@@ -1,0 +1,168 @@
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 74%;
+  min-height: 750px;
+  gap: 3rem;
+  padding: 9rem 0rem;
+}
+
+.avatarImg {
+  width: 23%;
+  height: 300px;
+  object-fit: contain;
+  animation: fadeInZoom 0.7s ease-in-out 0.7s both;
+}
+
+.threeCollapses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 5rem;
+  animation: fadeIn 0.7s ease-in-out 1s both;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 74%;
+  min-height: 800px;
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out 1s both;
+}
+
+.skillsText {
+  width: 500px;
+  margin-top: 2rem;
+}
+
+.skills lord-icon {
+  width: 90px;
+  height: 90px;
+  --lord-icon-primary: var(--greySecondary);
+  --lord-icon-secondary: var(--greySecondary);
+}
+
+.qualification {
+  font-size: 23px;
+  margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.certification {
+  font-size: 19px;
+  color: var(--greySecondary);
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+.skillsLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.skillImg {
+  width: 90px;
+}
+
+.referenceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  min-height: 650px;
+}
+
+.allReferences {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1150px) {
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    gap: 0rem;
+    padding: 0rem;
+  }
+  .avatarImg {
+    order: 1;
+    width: 80%;
+    margin: 3rem 0rem;
+  }
+
+  .threeCollapses {
+    margin-top: 0rem;
+    order: 2;
+  }
+
+  .skills {
+    width: 100%;
+    min-height: auto;
+    margin-top: 4.5rem;
+  }
+
+  .skillsText {
+    width: 70%;
+    margin-top: 2rem;
+  }
+
+  .referenceSection {
+    width: 80%;
+    min-height: auto;
+    margin-top: 4rem;
+  }
+
+  .allReferences {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 660px) {
+  .aboutSection {
+    width: 100%;
+  }
+  .avatarImg {
+    margin: 3rem 0rem;
+  }
+
+  .skills {
+    margin-top: 4rem;
+  }
+
+  .skillsText {
+    width: 90%;
+  }
+
+  .skillsLogos {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .referenceSection {
+    width: 100%;
+  }
+}

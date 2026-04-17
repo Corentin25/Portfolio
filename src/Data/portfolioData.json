@@ -102,8 +102,55 @@
   ],
   "aboutMe": [
     {
-      "id": "Corentin",
-      "text": "Je m’appelle Corentin Busi, je suis développeur web Front-End près de Bourg-en-Bresse et je suis passionné par la création d'interfaces fluides, modernes et accessibles pour tous. Anciennement Chargé de Projet Web puis Graphiste (depuis 2018), ma reconversion professionnelle via OpenClassrooms m’a permis aujourd’hui d'allier enfin la logique technique au quel je suis très attaché à ma passion du design. J’ai acquis la maîtrise de technologies Front-End tel que HTML, CSS, JavaScript ou encore React ainsi qu’une bonne approche pour l'optimisation des performances (SEO) et l'accessibilité, des enjeux devenus incontournables sur le web moderne. J'ai notamment conçu l'interface sécurisée d'une application bancaire (Argent Bank) en exploitant des technologies modernes tel que Redux Toolkit. Curieux, adaptable et rigoureux, je livre un code propre et maintenable, toujours centré sur l'expérience de l'utilisateur final. Mon objectif est d'intégrer une équipe à taille humaine en tant que développeur junior afin d'évoluer tout en apportant ma motivation et ma rigueur à tous vos futurs projets."
+      "id": "Qui suis-je ?",
+      "text": "Je m’appelle Corentin Busi, je suis développeur web Front-End et je suis passionné par la création d'interfaces fluides, modernes et accessibles pour tous."
+    },
+    {
+      "id": "Mon parcours",
+      "text": "Anciennement Chargé de Projet Web puis Graphiste (depuis 2018), ma reconversion professionnelle via OpenClassrooms m’a permis aujourd’hui d'allier enfin la logique technique au quel je suis très attaché à ma passion du design."
+    },
+    {
+      "id": "Stack technique et expertise",
+      "text": "Durant ces dernières années, j’ai acquis la maîtrise de technologies Front-End tel que HTML, CSS, JavaScript ou encore React et possède également de bonnes conaissances en matière d'optimisation des performances, de SEO et d'accessibilité web."
+    },
+    {
+      "id": "Projets marquants et impact",
+      "text": "J'ai conçu l'interface sécurisée d'une application bancaire (Argent Bank) en exploitant des technologies modernes telles que Redux Toolkit, me permettant ainsi une parfaite gestion et centralisation de données de manière fluide et évolutive."
+    },
+    {
+      "id": "Mon approche",
+      "text": "D'un naturel curieux, adaptable et rigoureux, je livre un code propre et maintenable, toujours centré sur l'expérience de l'utilisateur final."
+    },
+    {
+      "id": "Projection et ambitions",
+      "text": "Mon objectif est d'intégrer une équipe à taille humaine en tant que développeur junior afin d'évoluer tout en apportant ma motivation et ma rigueur à tous vos futurs projets."
+    }
+  ],
+  "skills": [
+    {
+      "id": "html",
+      "name": "HTML5",
+      "src": "/Images/HTML5.webp"
+    },
+    {
+      "id": "css",
+      "name": "CSS3",
+      "src": "/Images/CSS3.webp"
+    },
+    {
+      "id": "js",
+      "name": "JavaScript",
+      "src": "/Images/JavaScript.webp"
+    },
+    {
+      "id": "react",
+      "name": "React JS",
+      "src": "/Images/React-JS.webp"
+    },
+    {
+      "id": "redux",
+      "name": "Redux",
+      "src": "/Images/Redux.webp"
     }
   ],
   "allReferences": [

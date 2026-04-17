@@ -9,6 +9,9 @@ export function SingleProject({
   isReversed,
   details,
 }) {
+  const collapsesGroup1 = details.slice(0, 2);
+  const collapsesGroup2 = details.slice(2, 4);
+  const collapsesGroup3 = details.slice(4, 6);
   return (
     <>
       <div className={`projectTop ${isReversed ? "reversed" : ""}`}>
@@ -31,10 +34,34 @@ export function SingleProject({
           className="imgProject"
         />
       </div>
-      <div className="collapses-container">
-        {details.map((detail, index) => (
-          <Collapse key={index} label={detail.label} content={detail.content} />
-        ))}
+      <div className="collapseSection">
+        <div className="twoCollapses">
+          {collapsesGroup1.map((detail, index) => (
+            <Collapse
+              key={index}
+              label={detail.label}
+              content={detail.content}
+            />
+          ))}
+        </div>
+        <div className="twoCollapses">
+          {collapsesGroup2.map((detail, index) => (
+            <Collapse
+              key={index}
+              label={detail.label}
+              content={detail.content}
+            />
+          ))}
+        </div>
+        <div className="twoCollapses">
+          {collapsesGroup3.map((detail, index) => (
+            <Collapse
+              key={index}
+              label={detail.label}
+              content={detail.content}
+            />
+          ))}
+        </div>
       </div>
     </>
   );
