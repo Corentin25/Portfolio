@@ -1,0 +1,30 @@
+.legalSection {
+  width: 45%;
+  margin: 4rem 0rem 0rem 0rem;
+  padding: 0.5rem;
+  color: #bebebe;
+  text-align: center;
+}
+
+.legalGroup {
+  margin-bottom: 5rem;
+}
+
+.legalGroup h3 {
+  border-bottom: 1px solid #ffffff33;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.legalGroup p {
+  line-height: 1.6;
+  font-size: 19px;
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1024px) {
+  .legalSection {
+    width: 90%;
+  }
+}
