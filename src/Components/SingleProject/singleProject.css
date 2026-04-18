@@ -32,7 +32,7 @@
 
 .gitButton {
   cursor: pointer;
-  background-color: #ffffff00;
+  background-color: transparent;
   border-radius: 5rem;
   border: solid var(--greySecondary) 1px;
   color: var(--whitePrimary);
