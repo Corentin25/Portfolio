@@ -11,7 +11,7 @@ export function Home() {
         métier et plongez avec moi dans l’univers fascinant du développement web
         !
       </p>
-      <section className="cardSection">
+      <nav className="cardSection">
         <Cards
           title="Mes projets"
           pictoSrc="https://cdn.lordicon.com/zhiiqoue.json"
@@ -32,7 +32,7 @@ export function Home() {
           pictoTrigger="hover"
           linkTo="/contact"
         />
-      </section>
+      </nav>
     </>
   );
 }
