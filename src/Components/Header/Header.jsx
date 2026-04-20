@@ -18,7 +18,7 @@ export function Header() {
         await navigator.share({
           title: "Corentin Busi | Portfolio",
           text: "Découvrez mon portfolio d'Intégrateur Web / Développeur front-end !",
-          url: "https://corentin25.github.io/Portfolio",
+          url: "https://corentin25.github.io/Portfolio/",
         });
       } catch (error) {
         console.log("Partage annulé ou échoué", error);
