@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <>
       <h1>Les différents projets de Corentin Busi</h1>
-      <h2>Votre développeur web front-end proche de Lyon</h2>
+      <h2>Votre développeur front-end proche de Lyon</h2>
       <section className="projectSection">
         {data.projects.map((project, index) => (
           <SingleProject

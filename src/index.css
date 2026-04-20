@@ -9,6 +9,7 @@
 }
 
 body {
+  background-color: #000000;
   font-family: "Urbanist Variable", sans-serif;
   margin: 0;
   padding: 0;
@@ -58,12 +59,6 @@ h3 {
   text-transform: uppercase;
   color: var(--whitePrimary);
   margin: 0;
-}
-
-h4 {
-  margin: 0;
-  font-size: 17px;
-  font-weight: 400;
 }
 
 button {

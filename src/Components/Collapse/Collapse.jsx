@@ -12,8 +12,8 @@ export function Collapse({ label, content }) {
 
   return (
     <div className="singleCollapse">
-      <div className="collapseTitle" onClick={openCollapse}>
-        <h4>{label}</h4>
+      <div className="collapseHeader" onClick={openCollapse}>
+        <p className="collapseTitle">{label}</p>
         <FontAwesomeIcon
           icon={faChevronDown}
           className={`chevron ${isOpen ? "rotated" : ""}`}

@@ -9,8 +9,8 @@
   background-color: transparent;
   color: var(--whitePrimary);
   width: 160px;
-  height: 40px;
-  margin-top: 1.3rem;
+  height: 42px;
+  margin-top: 1.5rem;
   transition: all 0.18s ease-in-out;
   animation: fadeInZoom 0.7s ease-in-out 0.7s both;
 }
@@ -19,7 +19,7 @@
   background-color: var(--deepGreyBg);
   border: solid 1px var(--greySecondary);
   color: var(--whitePrimary);
-  width: 170px;
+  width: 175px;
   box-shadow: var(--whitePrimary) 0px 0px 20px;
   cursor: pointer;
 }
@@ -31,7 +31,6 @@
     font-size: 18px;
     background-color: var(--deepGreyBg);
     width: 220px;
-    height: 45px;
     margin-top: 2rem;
   }
 }
@@ -40,12 +39,12 @@
 
 @media screen and (max-width: 660px) {
   #h1Landing {
-    font-size: 55px;
+    font-size: 60px;
     line-height: 0.9;
     margin-bottom: 1rem;
   }
   .h1PhoneView {
-    font-size: 130px;
+    font-size: 145px;
   }
   .goButton {
     font-size: 18px;
