@@ -17,8 +17,10 @@
   transition: all 0.2s ease-in-out;
 }
 
-.collapseHeader:hover {
-  background: #39393990;
+.collapseHeader:focus-visible {
+  outline: 1px solid #ffffff99;
+  outline-offset: -3px;
+  border-radius: 0.5rem;
 }
 
 .collapseTitle {

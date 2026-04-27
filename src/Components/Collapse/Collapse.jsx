@@ -10,9 +10,23 @@ export function Collapse({ label, content }) {
     setIsOpen(!isOpen);
   };
 
+  const actionKeyboard = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      openCollapse();
+    }
+  };
+
   return (
     <div className="singleCollapse">
-      <div className="collapseHeader" onClick={openCollapse}>
+      <div
+        className="collapseHeader"
+        onClick={openCollapse}
+        tabIndex="0"
+        role="button"
+        aria-expanded={isOpen}
+        onKeyDown={actionKeyboard}
+      >
         <p className="collapseTitle">{label}</p>
         <FontAwesomeIcon
           icon={faChevronDown}
