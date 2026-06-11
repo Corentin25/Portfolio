@@ -29,8 +29,7 @@ header {
 }
 
 .faIcon:hover {
-  color: var(--greySecondary);
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .share-button {
@@ -58,7 +57,7 @@ header {
 }
 
 .backHomePage:hover .backArrow {
-  color: var(--greySecondary);
+  color: #959595;
   font-size: 23px;
 }
 

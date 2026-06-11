@@ -34,21 +34,31 @@
   cursor: pointer;
   background-color: transparent;
   border-radius: 5rem;
-  border: solid var(--greySecondary) 1px;
   color: var(--whitePrimary);
   font-size: 15px;
   padding: 0.6rem;
   width: 130px;
-  transition: all 0.18s ease-in-out;
+  border: 1px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b), linear-gradient(#ffffffad);
+  box-shadow:
+    -10px 0 25px -12px #ffffff80,
+    10px 0 25px -12px #ffffff80;
+  transition: all 0.25s ease-in-out;
 }
 
 .gitButton:hover {
-  background-color: var(--deepGreyBg);
-  border: solid 1px var(--greySecondary);
-  box-shadow: var(--whitePrimary) 0px 0px 20px;
   color: var(--whitePrimary);
   width: 140px;
   cursor: pointer;
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b),
+    linear-gradient(90deg, #00f3ff 0%, #ff00b8 100%);
+  box-shadow:
+    -10px 0 30px -4px #00f3ffcc,
+    10px 0 30px -4px #ff00b8cc;
 }
 
 .imgProject {

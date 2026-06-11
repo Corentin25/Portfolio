@@ -3,18 +3,18 @@ import { Renderer, Program, Triangle, Mesh } from "ogl";
 import "./rippleGrid.css";
 
 export const RippleGrid = ({
-  enableRainbow = true,
-  gridColor = "#7e006c",
-  rippleIntensity = 0.05,
+  enableRainbow = false,
+  gridColor = "#ffffff",
+  rippleIntensity = 0.02,
   gridSize = 11.0,
-  gridThickness = 50,
-  fadeDistance = 1,
-  vignetteStrength = 5,
-  glowIntensity = 1,
-  opacity = 0.5,
-  gridRotation = 15,
+  gridThickness = 100,
+  fadeDistance = 0,
+  vignetteStrength = 0.3,
+  glowIntensity = 13,
+  opacity = 0.7,
+  gridRotation = 17,
   mouseInteraction = true,
-  mouseInteractionRadius = 0.4,
+  mouseInteractionRadius = 0.5,
 }) => {
   const containerRef = useRef(null);
   const mousePositionRef = useRef({ x: 0.5, y: 0.5 });

@@ -1,56 +1,85 @@
-#h1Landing {
-  font-size: 86px;
+#firstName {
+  font-size: 93px;
+  margin: 1rem 0rem 0rem 0rem;
 }
 
 .goButton {
-  font-size: 16px;
-  border-radius: 10rem;
-  border: solid 1px var(--whitePrimary);
-  background-color: transparent;
-  color: var(--whitePrimary);
-  width: 160px;
-  height: 42px;
-  margin-top: 1.5rem;
-  transition: all 0.18s ease-in-out;
-  animation: fadeInZoom 0.7s ease-in-out 0.7s both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #e9e9e9;
+  width: 250px;
+  height: 47px;
+  margin-top: 2.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b), linear-gradient(#ffffffad);
+  box-shadow:
+    -15px 0 30px -12px #ffffff80,
+    15px 0 30px -12px #ffffff80;
+  transition: all 0.25s ease-in-out;
+  animation: fadeInZoom 0.6s ease-in-out 0.6s both;
 }
 
 .goButton:hover {
-  background-color: var(--deepGreyBg);
-  border: solid 1px var(--greySecondary);
-  color: var(--whitePrimary);
-  width: 175px;
-  box-shadow: var(--whitePrimary) 0px 0px 20px;
-  cursor: pointer;
+  transform: scale(1.03);
+  width: 270px;
+  color: #ffffff;
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b),
+    linear-gradient(90deg, #00f3ff 0%, #ff00b8 100%);
+  box-shadow:
+    -10px 0 30px -4px #00f3ffcc,
+    10px 0 30px -4px #ff00b8cc;
 }
 
 /* TABLET VIEW */
-
 @media screen and (max-width: 1024px) {
   .goButton {
-    font-size: 18px;
-    background-color: var(--deepGreyBg);
-    width: 220px;
-    margin-top: 2rem;
+    font-size: 20px;
+    width: 350px;
+    height: 60px;
+    box-shadow:
+      -10px 0 30px -4px #00f3ffcc,
+      10px 0 30px -4px #ff00b8cc;
   }
 }
 
 /* MOBILE VIEW */
-
 @media screen and (max-width: 660px) {
-  #h1Landing {
+  .lastName {
+    font-size: 145px;
+    padding: 0rem;
+  }
+  #firstName {
     font-size: 60px;
     line-height: 0.9;
-    margin-bottom: 1rem;
+    margin: 0rem 0rem 1rem 0rem;
+    width: 290px;
   }
-  .h1PhoneView {
-    font-size: 145px;
+  .webIntegrator {
+    font-size: 30px;
+  }
+  #frontDeveloper {
+    font-size: 28px;
+    width: 290px;
+    border-top: solid 2px #ffffff50;
+    padding-top: 1rem;
+    margin: 0.5rem 0rem;
   }
   .goButton {
-    font-size: 18px;
-    background-color: var(--deepGreyBg);
-    width: 220px;
-    height: 47px;
+    font-size: 15px;
+    width: 250px;
+    height: 48px;
     margin-top: 2.5rem;
   }
 }

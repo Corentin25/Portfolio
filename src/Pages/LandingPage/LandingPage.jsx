@@ -4,12 +4,18 @@ import "./landingPage.css";
 export function LandingPage() {
   return (
     <main>
-      <h1 id="h1Landing">
-        <span className="h1PhoneView">Busi</span> Corentin
+      <h1 id="firstName">
+        <span className="lastName">
+          <span>Busi</span>
+        </span>{" "}
+        Corentin
       </h1>
-      <h2>Intégrateur Web / Développeur Front-end</h2>
-      <Link to={"/home"}>
-        <button className="goButton">C'est parti !</button>
+      <h2 id="frontDeveloper">
+        <span className="webIntegrator">Intégrateur Web /</span> Développeur
+        Front-end
+      </h2>
+      <Link to="/home" className="goButton">
+        <span>Explorer mon univers</span>
       </Link>
     </main>
   );
