@@ -3,8 +3,27 @@
   flex-direction: column;
   border: solid #3b3b3b 1px;
   border-radius: 0.5rem;
-  background: var(--deepGreyBg);
   overflow: hidden;
+  min-width: 400px;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b), linear-gradient(#ffffff58);
+  box-shadow:
+    -5px 0 25px -15px #ffffff80,
+    5px 0 25px -11px #ffffff80;
+  transition: all 0.15s ease-in-out;
+}
+
+.singleCollapse:hover {
+  background-image:
+    linear-gradient(#1b1e25 10%, #12161b),
+    linear-gradient(90deg, #00f3ff 0%, #ff00b8 100%);
+  box-shadow:
+    -10px 0 30px -4px #00f3ffcc,
+    10px 0 30px -4px #ff00b8cc;
 }
 
 .collapseHeader {
@@ -56,4 +75,17 @@
   max-height: 300px;
   padding: 0.5rem 1.5rem;
   border: solid #2e2e2e 1px;
+}
+
+/* TABLET VIEW */
+
+@media screen and (max-width: 1330px) {
+  .singleCollapse {
+    min-width: auto;
+    align-self: center;
+    width: 90%;
+    box-shadow:
+      -5px 0 25px -15px #ffffff80,
+      5px 0 25px -15px #ffffff80;
+  }
 }

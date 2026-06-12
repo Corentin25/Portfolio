@@ -44,7 +44,7 @@ export function Contact() {
 
   return (
     <>
-      <h1>Contacter votre développeur web</h1>
+      <h1 id="h1Contact">Contacter votre développeur web</h1>
       <h2>Des questions ? N'hésitez pas à me contacter.</h2>
       <section className="contactSection">
         <form ref={form} onSubmit={sendEmail} className="contactForm">

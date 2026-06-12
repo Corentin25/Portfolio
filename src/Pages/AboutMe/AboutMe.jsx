@@ -1,10 +1,19 @@
 import data from "../../Data/portfolioData.json";
 import avatar from "../../Assets/Corentin-Busi-Developpeur-Web.webp";
+import { useEffect } from "react";
 import { Collapse } from "../../Components/Collapse/Collapse";
 import { References } from "../../Components/References/References";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
 import "./aboutMe.css";
 
 export function AboutMe() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const collapsesGroup1 = data.aboutMe.slice(0, 3);
   const collapsesGroup2 = data.aboutMe.slice(3, 6);
 
@@ -77,6 +86,10 @@ export function AboutMe() {
           ))}
         </div>
       </section>
+      <Link to="/contact" className="goToContact">
+        Me contacter
+        <FontAwesomeIcon icon={faChevronRight} />
+      </Link>
     </>
   );
 }

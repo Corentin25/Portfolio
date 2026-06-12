@@ -58,8 +58,10 @@ h3 {
   font-weight: 500;
   font-size: 25px;
   text-transform: uppercase;
+  border-bottom: solid 1px #ffffff46;
   color: var(--whitePrimary);
   margin: 0;
+  padding-bottom: 0.5rem;
 }
 
 button {
@@ -101,13 +103,15 @@ p {
     padding: 0rem 1rem;
   }
   h1 {
-    font-size: 39px;
+    font-size: 30px;
     margin-top: 2.5rem;
   }
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h3 {
     font-size: 23px;
+    text-align: center;
+    margin-top: 0.5rem;
   }
 }

@@ -5,6 +5,7 @@
       "title": "These Are My Games",
       "introText": "Développé à titre personnel, These Are My Games est une application web moderne de gestion de jeux vidéo qui m'a permis de concevoir un tableau de bord interactif en me concentrant sur l'expérience utilisateur et la persistance locale des données.",
       "githubLink": "https://github.com/Corentin25/These-Are-My-Games.git",
+      "websiteLink": "https://corentin25.github.io/These-Are-My-Games/",
       "coverImage": "./Images/Tamg.webp",
       "details": [
         {
@@ -33,11 +34,45 @@
         }
       ]
     },
+    {
+      "id": "corentin-busi-dev",
+      "title": "Corentin Busi - Développeur Web",
+      "introText": "Réalisé en toute autonomie, mon site portfolio sous WordPress est une vitrine professionnelle conçue pour démontrer mes compétences en intégration de CMS, en gestion d'infrastructure web et en optimisation globale de plateformes destinées à des clients.",
+      "websiteLink": "https://corentinbusi.com/",
+      "coverImage": "./Images/Corentin-Busi-Developpeur-Web.webp",
+      "details": [
         {
+          "label": "Contexte",
+          "content": "Afin de diversifier mes compétences d'intégrateur et de répondre aux demandes courantes du marché, j'ai choisi de concevoir, configurer et déployer mon propre site vitrine en utilisant le CMS le plus populaire au monde."
+        },
+        {
+          "label": "Objectifs",
+          "content": "L'enjeu était de maîtriser l'intégralité de la chaîne de production d'un site WordPress : de la gestion de l'hébergement à la mise en ligne, en passant par le webdesign, le référencement, la sécurité et la conformité légale."
+        },
+        {
+          "label": "Stack technique",
+          "content": "Le site s'appuie sur le cœur de WordPress couplé au constructeur Elementor. L'écosystème est optimisé par des extensions clés pour le SEO (Yoast), les statistiques (Google Site Kit), la conformité RGPD (Complianz) et la sécurité."
+        },
+        {
+          "label": "Compétences développées",
+          "content": "J'ai acquis une solide expérience en administration d'hébergement et de serveurs DNS (OVH), en configuration de protocoles de messagerie (WP Mail SMTP), en audit de sécurité et en optimisation des politiques de confidentialité."
+        },
+        {
+          "label": "Résultats et impact",
+          "content": "Le portfolio est une plateforme performante, sécurisée et entièrement responsive. L'intégration des outils Google permet un suivi précis du trafic, tandis que la gestion des scripts garantit un respect strict du RGPD."
+        },
+        {
+          "label": "Perspectives d'amélioration",
+          "content": "Une prochaine évolution consistera à enrichir ce portfolio en y intégrant de nouvelles réalisations de sites WordPress. L'objectif sera de diversifier les thématiques et les types de structures présentés afin de démontrer une polyvalence accrue sur ce CMS."
+        }
+      ]
+    },
+    {
       "id": "to-do-list",
       "title": "To-Do-List",
       "introText": "Développée en tant que projet personnel, cette application de gestion de tâches a été conçue pour consolider mes acquis fondamentaux. Elle illustre parfaitement ma volonté d'expérimenter de manière autonome les technologies front-end.",
       "githubLink": "https://github.com/Corentin25/To-Do-List.git",
+      "websiteLink": "https://corentin25.github.io/To-Do-List/",
       "coverImage": "./Images/To-Do-List.webp",
       "details": [
         {
@@ -63,39 +98,6 @@
         {
           "label": "Perspectives d'amélioration",
           "content": "L'implémentation d'un système de catégorisation des tâches contribuerait à une excellente évolution future de l’application."
-        }
-      ]
-    },
-    {
-      "id": "argent-bank",
-      "title": "Argent Bank",
-      "introText": "Développé dans le cadre de ma formation chez OpenClassrooms, Argent Bank est une application web bancaire moderne qui m'a permis de concevoir un tableau de bord interactif en me concentrant sur l'authentification utilisateur et la gestion globale des données.",
-      "githubLink": "https://github.com/Corentin25/ArgentBank-Frontend.git",
-      "coverImage": "./Images/Argent-Bank.webp",
-      "details": [
-        {
-          "label": "Contexte",
-          "content": "Argent Bank souhaitait lancer sa nouvelle application web pour permettre à ses clients de se connecter et de consulter leurs comptes de manière sécurisée."
-        },
-        {
-          "label": "Objectifs",
-          "content": "L'enjeu principal était d'intégrer le front-end du système d'authentification et de dynamiser le tableau de bord en le connectant à une base de données via une API."
-        },
-        {
-          "label": "Stack technique",
-          "content": "L'interface a été entièrement développée avec React, tandis que Redux Toolkit a été privilégié pour gérer efficacement l'état global et la persistance des données de l'application."
-        },
-        {
-          "label": "Compétences développées",
-          "content": "J'ai renforcé ma capacité à interagir avec des API REST sécurisées (utilisation de tokens JWT) et à centraliser le state management de manière optimale."
-        },
-        {
-          "label": "Résultats et impact",
-          "content": "L'application dispose désormais d'un parcours de connexion fluide, avec un profil utilisateur sécurisé, entièrement fonctionnel et modifiable."
-        },
-        {
-          "label": "Perspectives d'amélioration",
-          "content": "Une prochaine évolution logique serait de développer la vue détaillée des transactions individuelles ou d'implémenter des tests unitaires poussés."
         }
       ]
     },

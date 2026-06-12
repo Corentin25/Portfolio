@@ -1,11 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { SingleProject } from "../../Components/SingleProject/SingleProject";
+import { Link } from "react-router-dom";
 import data from "../../Data/portfolioData.json";
+
 import "./projects.css";
 
 export function Projects() {
   return (
     <>
-      <h1>Les différents projets de Corentin Busi</h1>
+      <h1 id="h1Projects">Les différents projets de Corentin Busi</h1>
       <h2>Votre développeur front-end proche de Lyon</h2>
       <section className="projectSection">
         {data.projects.map((project, index) => (
@@ -14,12 +18,16 @@ export function Projects() {
             title={project.title}
             introText={project.introText}
             githubLink={project.githubLink}
+            websiteLink={project.websiteLink}
             coverImage={project.coverImage}
-            isReversed={index % 2 !== 0}
             details={project.details}
           />
         ))}
       </section>
+      <Link to="/aboutme" className="goToAboutMe">
+        À propos de moi
+        <FontAwesomeIcon icon={faChevronRight} />
+      </Link>
     </>
   );
 }
