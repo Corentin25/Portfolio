@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import "./legalNotice.css";
 
 export function LegalNotice() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const user = "corentinbusi.pro";
   const domain = "gmail.com";
 

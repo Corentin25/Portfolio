@@ -138,19 +138,19 @@
   "aboutMe": [
     {
       "id": "Qui suis-je ?",
-      "text": "Je m’appelle Corentin Busi, je suis développeur web Front-End et je suis passionné par la création d'interfaces fluides, modernes et accessibles pour tous."
+      "text": "Je m’appelle Corentin, je suis Intégrateur web / Développeur front-End et je suis passionné par la création d'interfaces fluides, modernes et accessibles pour tous."
     },
     {
       "id": "Mon parcours",
-      "text": "Anciennement Chargé de Projet Web puis Graphiste (depuis 2018), ma reconversion professionnelle via OpenClassrooms m’a permis aujourd’hui d'allier enfin la logique technique au quel je suis très attaché à ma passion du design."
+      "text": "J'ai débuté mon parcours en tant que Chargé de Projet Web, puis Graphiste, avant d'effectuer une reconversion professionnelle en tant qu'intégrateur web pour enfin allier la logique technique au quel je suis très attaché à ma passion du design."
     },
     {
       "id": "Stack technique et expertise",
-      "text": "Durant ces dernières années, j’ai acquis la maîtrise de technologies Front-End tel que HTML, CSS, JavaScript ou encore React et possède également de bonnes conaissances en matière d'optimisation des performances, de SEO et d'accessibilité web."
+      "text": "Durant ces dernières années, j’ai acquis la maîtrise de technologies Front-End tel que HTML, CSS, JavaScript ou encore React. Je possède également de bonnes conaissances sur le CMS Wordpress ainsi que sur l'accessibilité, les performances et le SEO d'un site."
     },
     {
       "id": "Projets marquants et impact",
-      "text": "J'ai conçu l'interface sécurisée d'une application bancaire (Argent Bank) en exploitant des technologies modernes telles que Redux Toolkit, me permettant ainsi une parfaite gestion et centralisation de données de manière fluide et évolutive."
+      "text": "J'ai développé l'interface interactive d'une application de gestion de jeux vidéo (These Are My Games) en exploitant l'écosystème React, me permettant ainsi d'assurer une expérience utilisateur optimale et une persistance locale des données performante."
     },
     {
       "id": "Mon approche",
@@ -158,7 +158,7 @@
     },
     {
       "id": "Projection et ambitions",
-      "text": "Mon objectif est d'intégrer une équipe à taille humaine en tant que développeur junior afin d'évoluer tout en apportant ma motivation et ma rigueur à tous vos futurs projets."
+      "text": "Mon objectif est d'intégrer une équipe à taille humaine en tant que développeur junior afin d'évoluer tout en apportant ma motivation et ma rigueur sur tous les projets qui me seront confiés."
     }
   ],
   "skills": [
@@ -186,6 +186,16 @@
       "id": "redux",
       "name": "Redux",
       "src": "./Images/Redux.webp"
+    },
+    {
+      "id": "wordpress",
+      "name": "Wordpress",
+      "src": "./Images/Wordpress.webp"
+    },
+    {
+      "id": "elementor",
+      "name": "Elementor",
+      "src": "./Images/Elementor.webp"
     }
   ],
   "allReferences": [

@@ -41,9 +41,7 @@ export function AboutMe() {
       <section className="skills">
         <h2>Formations et compétences</h2>
         <p className="skillsText">
-          Durant 9 mois, j’ai effectué une formation 100% en ligne avec
-          OpenClassrooms afin d’acquérir l’ensemble des compétences qui font de
-          moi aujourd’hui un développeur front-end minutieux et autonome.
+          Durant 9 mois, j’ai effectué une formation auprès d'une école en ligne afin d’acquérir l’ensemble des compétences qui font de moi aujourd’hui un développeur front-end minutieux et autonome.
         </p>
         <div>
           <lord-icon
